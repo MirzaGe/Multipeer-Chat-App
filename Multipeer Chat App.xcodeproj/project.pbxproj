@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		44EB252827AAEAFA00562719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB252727AAEAFA00562719 /* AppDelegate.swift */; };
-		44EB252A27AAEAFA00562719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB252927AAEAFA00562719 /* SceneDelegate.swift */; };
 		44EB252C27AAEAFA00562719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB252B27AAEAFA00562719 /* ViewController.swift */; };
 		44EB252F27AAEAFA00562719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EB252D27AAEAFA00562719 /* Main.storyboard */; };
 		44EB253127AAEB0500562719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EB253027AAEB0500562719 /* Assets.xcassets */; };
 		44EB253427AAEB0500562719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EB253227AAEB0500562719 /* LaunchScreen.storyboard */; };
+		44EB253F27AAEE2700562719 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EB253E27AAEE2700562719 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44EB252427AAEAFA00562719 /* Multipeer Chat App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multipeer Chat App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EB252727AAEAFA00562719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44EB252927AAEAFA00562719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44EB252B27AAEAFA00562719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44EB252E27AAEAFA00562719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44EB253027AAEB0500562719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44EB253327AAEB0500562719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44EB253527AAEB0500562719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EB253E27AAEE2700562719 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				44EB252727AAEAFA00562719 /* AppDelegate.swift */,
-				44EB252927AAEAFA00562719 /* SceneDelegate.swift */,
 				44EB252B27AAEAFA00562719 /* ViewController.swift */,
+				44EB253E27AAEE2700562719 /* ChatViewController.swift */,
 				44EB252D27AAEAFA00562719 /* Main.storyboard */,
 				44EB253027AAEB0500562719 /* Assets.xcassets */,
 				44EB253227AAEB0500562719 /* LaunchScreen.storyboard */,
@@ -138,8 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EB252C27AAEAFA00562719 /* ViewController.swift in Sources */,
+				44EB253F27AAEE2700562719 /* ChatViewController.swift in Sources */,
 				44EB252827AAEAFA00562719 /* AppDelegate.swift in Sources */,
-				44EB252A27AAEAFA00562719 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
